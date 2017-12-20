@@ -39,6 +39,7 @@ class ComposerStaticInit0ca43918e16f1253224dac78abc78a16
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\Cache\\' => 24,
+            'Symfony\\Component\\Asset\\' => 24,
             'Symfony\\Bundle\\WebProfilerBundle\\' => 33,
             'Symfony\\Bundle\\TwigBundle\\' => 26,
             'Symfony\\Bundle\\FrameworkBundle\\' => 31,
@@ -150,6 +151,10 @@ class ComposerStaticInit0ca43918e16f1253224dac78abc78a16
         'Symfony\\Component\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/cache',
+        ),
+        'Symfony\\Component\\Asset\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/asset',
         ),
         'Symfony\\Bundle\\WebProfilerBundle\\' => 
         array (

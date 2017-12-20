@@ -18,6 +18,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sensio/framework-extra-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sensiolabs/security-checker" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/apache-pack" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/asset" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/cache" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/config" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
@@ -43,6 +44,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/web-profiler-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/twbs/bootstrap" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -64,6 +66,7 @@
           <root url="file://$MODULE_DIR$/vendor/sensio/framework-extra-bundle" />
           <root url="file://$MODULE_DIR$/vendor/sensiolabs/security-checker" />
           <root url="file://$MODULE_DIR$/vendor/symfony/apache-pack" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/asset" />
           <root url="file://$MODULE_DIR$/vendor/symfony/cache" />
           <root url="file://$MODULE_DIR$/vendor/symfony/config" />
           <root url="file://$MODULE_DIR$/vendor/symfony/console" />
@@ -89,6 +92,7 @@
           <root url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
           <root url="file://$MODULE_DIR$/vendor/symfony/web-profiler-bundle" />
           <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/vendor/twbs/bootstrap" />
           <root url="file://$MODULE_DIR$/vendor/twig/twig" />
         </CLASSES>
         <SOURCES>
@@ -106,6 +110,7 @@
           <root url="file://$MODULE_DIR$/vendor/sensio/framework-extra-bundle" />
           <root url="file://$MODULE_DIR$/vendor/sensiolabs/security-checker" />
           <root url="file://$MODULE_DIR$/vendor/symfony/apache-pack" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/asset" />
           <root url="file://$MODULE_DIR$/vendor/symfony/cache" />
           <root url="file://$MODULE_DIR$/vendor/symfony/config" />
           <root url="file://$MODULE_DIR$/vendor/symfony/console" />
@@ -131,6 +136,7 @@
           <root url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
           <root url="file://$MODULE_DIR$/vendor/symfony/web-profiler-bundle" />
           <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/vendor/twbs/bootstrap" />
           <root url="file://$MODULE_DIR$/vendor/twig/twig" />
         </SOURCES>
       </library>

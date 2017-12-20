@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "edd23fba7af64aa0ff1f0d8ca05200d1",
+    "content-hash": "6df6098ce305ca8fa93e933d578a534b",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -790,6 +790,62 @@
             ],
             "description": "A pack for Apache support in Symfony",
             "time": "2017-12-12T01:46:35+00:00"
+        },
+        {
+            "name": "symfony/asset",
+            "version": "v4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/asset.git",
+                "reference": "3f5117a59af74dd3cecf3ebc70d1e35478ae2d01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/asset/zipball/3f5117a59af74dd3cecf3ebc70d1e35478ae2d01",
+                "reference": "3f5117a59af74dd3cecf3ebc70d1e35478ae2d01",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "symfony/http-foundation": "~3.4|~4.0",
+                "symfony/http-kernel": "~3.4|~4.0"
+            },
+            "suggest": {
+                "symfony/http-foundation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Asset\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Asset Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-11-07T14:45:01+00:00"
         },
         {
             "name": "symfony/cache",
@@ -2159,6 +2215,57 @@
             "time": "2017-12-12T08:41:51+00:00"
         },
         {
+            "name": "twbs/bootstrap",
+            "version": "v4.0.0-beta.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "fc94de5b8b5b329a298eeeb76174b146ff17af2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/fc94de5b8b5b329a298eeeb76174b146ff17af2d",
+                "reference": "fc94de5b8b5b329a298eeeb76174b146ff17af2d",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "time": "2017-10-19T19:23:29+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v2.4.4",
             "source": {
@@ -2554,7 +2661,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "symfony/lts": 20
+        "symfony/lts": 20,
+        "twbs/bootstrap": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,

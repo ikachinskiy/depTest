@@ -2621,5 +2621,116 @@
             "MIT"
         ],
         "description": "A pack for the Symfony web profiler"
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v4.0.0-beta.2",
+        "version_normalized": "4.0.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "fc94de5b8b5b329a298eeeb76174b146ff17af2d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/fc94de5b8b5b329a298eeeb76174b146ff17af2d",
+            "reference": "fc94de5b8b5b329a298eeeb76174b146ff17af2d",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2017-10-19T19:23:29+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "https://getbootstrap.com",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "web"
+        ]
+    },
+    {
+        "name": "symfony/asset",
+        "version": "v4.0.2",
+        "version_normalized": "4.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/asset.git",
+            "reference": "3f5117a59af74dd3cecf3ebc70d1e35478ae2d01"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/asset/zipball/3f5117a59af74dd3cecf3ebc70d1e35478ae2d01",
+            "reference": "3f5117a59af74dd3cecf3ebc70d1e35478ae2d01",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1.3"
+        },
+        "require-dev": {
+            "symfony/http-foundation": "~3.4|~4.0",
+            "symfony/http-kernel": "~3.4|~4.0"
+        },
+        "suggest": {
+            "symfony/http-foundation": ""
+        },
+        "time": "2017-11-07T14:45:01+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Asset\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Asset Component",
+        "homepage": "https://symfony.com"
     }
 ]
