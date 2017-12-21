@@ -4,17 +4,28 @@
 {% endblock %}
 {% block body %}
     <div class="container">
-        <h1>Привет всем из шаблона!</h1>
-        <div style="font-size:3em; color:Tomato">
-            <i class="fas fa-camera-retro"></i>
+        <h1>Проект T4</h1>
+        <p class="lead">Шаблон типового приложения на Symfony 4</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>Подключены:</h5>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Bootstrap 4</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>FontAwesome 5</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Twig</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>SCSS</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <h5>Пример буллетов списка на FA</h5>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Иконки списка</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>могут быть</li>
+                    <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>заменены буллитами</li>
+                    <li><span class="fa-li"><i class="far fa-square"></i></span>с поддержкой FA</li>
+                </ul>
+            </div>
         </div>
-        <a href={{ path('new') }}>Новая страница</a>
-        <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>List icons can</li>
-            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>be used to</li>
-            <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>replace bullets</li>
-            <li><span class="fa-li"><i class="far fa-square"></i></span>in lists</li>
-        </ul>
         <div class="fa-3x">
             <i class="fas fa-spinner fa-spin"></i>
             <i class="fas fa-circle-notch fa-spin"></i>
