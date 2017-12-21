@@ -22,4 +22,12 @@ class MainController extends Controller
         return $this->render('main/index.html.twig');
     }
 
+    /**
+     * @Route("/new", name="new")
+     */
+    public function newPage() {
+
+        return $this->render('main/new.html.twig');
+    }
+
 }
