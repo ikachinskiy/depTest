@@ -10,6 +10,7 @@
         "symfony/asset": "v4.0.2",
         "symfony/console": "^4.0",
         "symfony/flex": "^1.0",
+        "symfony/form": "v4.0.2",
         "symfony/framework-bundle": "^4.0",
         "symfony/intl": "^4.0",
         "symfony/lts": "^4@dev",
