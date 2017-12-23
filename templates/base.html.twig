@@ -10,11 +10,24 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fa-svg-with-js.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/skin.css') }}">
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
-    {% block body %}
-    {% endblock %}
+<div class="container">
+    <nav class="navbar">
+        <a class="navbar-brand" href="#"><h2>01.S4S</h2></a>
+    </nav>
+    <div class="row content">
+        <div class="col-sm-2">
+            <p class="left">Меню левое</p>
+        </div>
+        <div class="col-sm-10">
+            {% block body %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

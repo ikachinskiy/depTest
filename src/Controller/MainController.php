@@ -20,10 +20,8 @@ class MainController extends Controller
      */
     public function index(Connection $conn) {
 
-//        $users = $conn->fetchAll('SELECT * FROM users');
 
         return $this->render('main/index.html.twig', [
-//            'users' =>  $users
         ]);
     }
 
