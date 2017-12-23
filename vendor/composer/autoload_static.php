@@ -31,6 +31,7 @@ class ComposerStaticInit0ca43918e16f1253224dac78abc78a16
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Stopwatch\\' => 28,
+            'Symfony\\Component\\Security\\' => 27,
             'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\PropertyAccess\\' => 33,
             'Symfony\\Component\\OptionsResolver\\' => 34,
@@ -64,6 +65,11 @@ class ComposerStaticInit0ca43918e16f1253224dac78abc78a16
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
             'PackageVersions\\' => 16,
+        ),
+        'K' => 
+        array (
+            'Knp\\Menu\\' => 9,
+            'Knp\\Bundle\\MenuBundle\\' => 22,
         ),
         'D' => 
         array (
@@ -125,6 +131,10 @@ class ComposerStaticInit0ca43918e16f1253224dac78abc78a16
         'Symfony\\Component\\Stopwatch\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/stopwatch',
+        ),
+        'Symfony\\Component\\Security\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/security',
         ),
         'Symfony\\Component\\Routing\\' => 
         array (
@@ -245,6 +255,14 @@ class ComposerStaticInit0ca43918e16f1253224dac78abc78a16
         'PackageVersions\\' => 
         array (
             0 => __DIR__ . '/..' . '/ocramius/package-versions/src/PackageVersions',
+        ),
+        'Knp\\Menu\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-menu/src/Knp/Menu',
+        ),
+        'Knp\\Bundle\\MenuBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-menu-bundle/src',
         ),
         'Doctrine\\ORM\\' => 
         array (
