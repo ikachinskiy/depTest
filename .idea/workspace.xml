@@ -2,265 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca217759-bf6d-46d6-92f9-dbc42e239ca8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/4b62d326-c66d-4000-baed-9f83ffa6f5e0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/4b62d326-c66d-4000-baed-9f83ffa6f5e0/storage_v2/_src_/database/s4s.crYBAA.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/4b62d326-c66d-4000-baed-9f83ffa6f5e0/storage_v2/_src_/database/s4s.crYBAA/schema/public.abK9xQ.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc/01.S4S-формы.ods" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dump/dump.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dump/s4s_public_users.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/cards.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/charts.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap-grid.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap-grid.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap-reboot.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap-reboot.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/dist/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/elements.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/images/profile-pic.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/bootstrap-datepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/chart-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/chart.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/custom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/easypiechart-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/easypiechart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/html5shiv.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/jquery-1.11.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/jquery-3.2.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/js/respond.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/sass/.sass-cache/a54d729c4cd4eadb887b2589595bf4a3f4989946/style.scssc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/sass/config.codekit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/sass/style.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Easy/widgets.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/charts.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap-table.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap-theme.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/datepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/datepicker3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/css/styles.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/elements.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/bootstrap-datepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/chart-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/chart.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/custom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/easypiechart-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/easypiechart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/html5shiv.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/jquery-1.11.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/lumino.glyphs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/npm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/js/respond.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/panels.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/sass/.sass-cache/deff34d1f5b7167181b556002c25068d6adc024d/styles.scssc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/sass/styles.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/tables/data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/tables/data2.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/Lumino/widgets.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/charts.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/credits.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/custom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/fontastic.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/style.blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/style.default.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/style.green.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/style.pink.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/style.red.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/style.sea.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/css/style.violet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/data/countries.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/fonts/dashboard.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/fonts/dashboard.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/fonts/dashboard.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/fonts/dashboard.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/forms.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/icons-reference/fonts/dashboard.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/icons-reference/fonts/dashboard.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/icons-reference/fonts/dashboard.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/icons-reference/fonts/dashboard.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/icons-reference/icons-reference.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/icons-reference/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/avatar-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/avatar-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/avatar-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/avatar-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/avatar-5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/avatar-6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/project-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/project-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/project-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/project-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/img/template-mac.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/js/charts-custom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/js/charts-home.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/js/front.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/license.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/register.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/tables.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/js/bootstrap.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/js/bootstrap.bundle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/chart.js/Chart.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/chart.js/Chart.bundle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/chart.js/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/chart.js/Chart.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/HELP-US-OUT.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/additional-methods.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/jquery.validate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/jquery.validate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_az.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_bg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_bn_BD.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_el.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_es_AR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_es_PE.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_et.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_eu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_fa.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ge.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_gl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_hy_AM.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_id.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_is.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ja.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ka.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_kk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ko.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_lt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_lv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_mk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_my.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_no.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_pt_BR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_pt_PT.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_sd.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_si.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_sl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_sr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_sr_lat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_th.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_tj.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_uk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_ur.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_vi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_zh.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/messages_zh_TW.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/methods_de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/methods_es_CL.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/methods_fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/methods_nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery-validation/localization/methods_pt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery.cookie/MIT-LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery.cookie/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery.cookie/cookie.jquery.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery.cookie/jquery.cookie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery/core.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery/jquery.slim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/jquery/jquery.slim.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/esm/popper-utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/esm/popper-utils.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/esm/popper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/esm/popper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/popper-utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/popper-utils.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/popper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/popper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/umd/popper-utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/umd/popper-utils.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/umd/popper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/MD/vendor/popper.js/umd/popper.min.js" />
-      <change beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/profile-pic.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/s4s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/custom.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ac56f6d-57ac-4e82-bc98-8979b1b5090c.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/doc/Проект 01.S4S.odt" afterPath="$PROJECT_DIR$/doc/Проект 01.S4S.odt" />
       <change beforePath="$PROJECT_DIR$/public/css/skin.css" afterPath="$PROJECT_DIR$/public/css/skin.css" />
       <change beforePath="$PROJECT_DIR$/public/css/skin.css.map" afterPath="$PROJECT_DIR$/public/css/skin.css.map" />
       <change beforePath="$PROJECT_DIR$/public/scss/skin.scss" afterPath="$PROJECT_DIR$/public/scss/skin.scss" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/templates/main/index.html.twig" afterPath="$PROJECT_DIR$/templates/main/index.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -330,8 +81,40 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/admin/Easy/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10833">
-              <caret line="471" column="37" lean-forward="true" selection-start-line="471" selection-start-column="37" selection-end-line="471" selection-end-column="37" />
+            <state relative-caret-position="344">
+              <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="50" column="147" lean-forward="false" selection-start-line="50" selection-start-column="147" selection-end-line="50" selection-end-column="147" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/admin/Easy/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="258" column="26" lean-forward="false" selection-start-line="258" selection-start-column="4" selection-end-line="258" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skin.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scss/skin.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -355,9 +138,9 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Controller/MainController.php" />
         <option value="$PROJECT_DIR$/templates/main/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/public/scss/skin.scss" />
         <option value="$PROJECT_DIR$/public/admin/Lumino/index.html" />
+        <option value="$PROJECT_DIR$/public/scss/skin.scss" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
       </list>
     </option>
   </component>
@@ -479,7 +262,13 @@
               <item name="tstS4S-01" type="b2602c69:ProjectViewProjectNode" />
               <item name="tstS4S-01" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tstS4S-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tstS4S-01" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="tstS4S-01" type="b2602c69:ProjectViewProjectNode" />
@@ -492,12 +281,17 @@
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="tstS4S-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tstS4S-01" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -505,13 +299,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dump" />
+    <property name="SearchEverywhereHistoryKey" value="site-tit&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/templates/main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,7 +348,8 @@
       <workItem from="1513895764976" duration="1696000" />
       <workItem from="1513976050155" duration="1462000" />
       <workItem from="1514027456237" duration="679000" />
-      <workItem from="1514031115986" duration="11275000" />
+      <workItem from="1514031115986" duration="11398000" />
+      <workItem from="1514111662550" duration="2993000" />
     </task>
     <task id="LOCAL-00001" summary="Начальная стадия проекта T4 - стартовый шаблон приложения на фреймворке Symfony 4">
       <created>1513867226771</created>
@@ -587,16 +386,23 @@
       <option name="project" value="LOCAL" />
       <updated>1514034892898</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="В public добавил папку admin с 3-мя образцами админок на 4-м Bootstrap - для исследования и выбора подходящей в качестве прототипа">
+      <created>1514069765319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514069765319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24299000" />
+    <option name="totallyTimeSpent" value="27415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1920" height="1054" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1054" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23760776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -611,7 +417,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="YouTrack" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -647,8 +453,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
-                        <option value="origin/v1.1.1" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -672,12 +477,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Начальная стадия проекта T4 - стартовый шаблон приложения на фреймворке Symfony 4" />
     <MESSAGE value="Файл .env тоже будем хранить в git" />
     <MESSAGE value="Починил символические ссылки на файлы Bootstrap css и js - при установке почему то разорвались" />
     <MESSAGE value="1 В .gitignore отключил временние файлы документов LibreOffice&#10;2 Завёл папку doc и в ней файл документа (пока пустой) с описанием проекта" />
     <MESSAGE value="Добавил компоненты Symfony/Security и KNLLab/knp-menu и knp-menu-bundle. Теперь есть окончательный набор компонент для целей реализации этого тестового приложения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил компоненты Symfony/Security и KNLLab/knp-menu и knp-menu-bundle. Теперь есть окончательный набор компонент для целей реализации этого тестового приложения" />
+    <MESSAGE value="В public добавил папку admin с 3-мя образцами админок на 4-м Bootstrap - для исследования и выбора подходящей в качестве прототипа" />
+    <option name="LAST_COMMIT_MESSAGE" value="В public добавил папку admin с 3-мя образцами админок на 4-м Bootstrap - для исследования и выбора подходящей в качестве прототипа" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -690,21 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#115#161#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#115#161#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4416">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5382">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
           <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2355">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,65 +657,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/lumino/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scss/skin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lumino/index.html" />
     <entry file="file://$PROJECT_DIR$/src/Controller/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#115#161#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/Lumino/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="401" column="39" lean-forward="false" selection-start-line="401" selection-start-column="39" selection-end-line="401" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/Modular/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/Modular/bower.json" />
     <entry file="file://$PROJECT_DIR$/public/admin/Easy/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -943,15 +674,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/Easy/images/profile-pic.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/admin/Easy/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/Easy/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4692">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/Lumino/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="309" column="39" lean-forward="false" selection-start-line="309" selection-start-column="39" selection-end-line="309" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -964,27 +705,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/Easy/sass/style.scss">
+    <entry file="file://$PROJECT_DIR$/public/admin/Easy/images/profile-pic.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4692">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/admin/Easy/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="329">
+          <caret line="258" column="26" lean-forward="false" selection-start-line="258" selection-start-column="4" selection-end-line="258" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/scss/skin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="50" column="147" lean-forward="false" selection-start-line="50" selection-start-column="147" selection-end-line="50" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/profile-pic.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/admin/Easy/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10833">
-          <caret line="471" column="37" lean-forward="true" selection-start-line="471" selection-start-column="37" selection-end-line="471" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="344">
+          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

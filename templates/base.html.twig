@@ -5,27 +5,68 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="tstS4S-01">
+    <meta name="author" content="Kachinskiy Ivan">
+    <link rel="icon" href="{{ asset('images/s4s.png') }}">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fa-svg-with-js.css') }}">
+
+    <!-- Custom styles for Medialoot Bootstrap 4 Dashboard Template -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+    <!-- Это мои стили -->
     <link rel="stylesheet" href="{{ asset('css/skin.css') }}">
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
-<div class="container">
-    <nav class="navbar">
-        <a class="navbar-brand" href="#"><h2>01.S4S</h2></a>
-    </nav>
-    <div class="row content">
-        <div class="col-sm-2">
-            <p class="left">Меню левое</p>
-        </div>
-        <div class="col-sm-10">
-            {% block body %}
-            {% endblock %}
-        </div>
+<div class="container-fluid" id="wrapper">
+    <div class="row">
+        <nav class="sidebar col-xs-12 col-sm-4 col-lg-3 col-xl-2 bg-faded sidebar-style-1">
+            <h1 class="site-title"><a href="#"><em class="fa fa-rocket"></em> S4S</a></h1>
+            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><em class="fa fa-bars"></em></a>
+
+            <ul class="nav nav-pills flex-column sidebar-nav">
+                <li class="nav-item"><a class="nav-link active" href="#"><em class="fa fa-dashboard"></em> Начало <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><em class="fa fa-calendar-o"></em> Сотрудник</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><em class="fa fa-bar-chart"></em> Руководитель</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><em class="fa fa-hand-o-up"></em> СисАдмин</a></li>
+            </ul>
+            <a href="#" class="logout-button"><em class="fa fa-power-off"></em> На выход</a></nav>
+        </nav>
+
+        <main class="col-xs-12 col-sm-8 offset-sm-4 col-lg-9 offset-lg-3 col-xl-10 offset-xl-2 pt-3 pl-4">
+            <header class="page-header row justify-center">
+                <div class="col-md-6 col-lg-8" >
+                    <h1 class="float-left text-center text-md-left">Главная</h1>
+                </div>
+
+                <div class="dropdown user-dropdown col-md-6 col-lg-4 text-center text-md-right"><a class="btn btn-stripped dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="{{ asset('images/profile-pic.jpg') }}" alt="Фото профиля" class="circle float-left profile-photo" width="50" height="auto">
+
+                        <div class="username mt-1">
+                            <h4 class="mb-1">Имя</h4>
+
+                            <h6 class="text-muted">Роль</h6>
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" style="margin-right: 1.5rem;" aria-labelledby="dropdownMenuLink"><a class="dropdown-item" href="#"><em class="fa fa-user-circle mr-1"></em> Ваш профиль</a>
+                        <a class="dropdown-item" href="#"><em class="fa fa-sliders mr-1"></em> Предпочтения</a>
+                        <a class="dropdown-item" href="#"><em class="fa fa-power-off mr-1"></em> На выход</a></div>
+                </div>
+
+                <div class="clear"></div>
+            </header>
+        </main>
+
     </div>
 </div>
 
@@ -35,6 +76,8 @@
 <script src="{{ asset('js/popper.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script defer src="{{ asset('js/fontawesome-all.min.js') }}"></script>
+<script src="{{ asset('js/custom.js') }}"></script>
+
 {% block javascripts %}{% endblock %}
 
 </body>
