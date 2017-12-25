@@ -48,7 +48,8 @@
                     <h1 class="float-left text-center text-md-left">Главная</h1>
                 </div>
 
-                <div class="dropdown user-dropdown col-md-6 col-lg-4 text-center text-md-right"><a class="btn btn-stripped dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropdown user-dropdown col-md-6 col-lg-4 text-center text-md-right">
+                    <a class="btn btn-stripped dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="{{ asset('images/profile-pic.jpg') }}" alt="Фото профиля" class="circle float-left profile-photo" width="50" height="auto">
 
                         <div class="username mt-1">
@@ -58,15 +59,18 @@
                         </div>
                     </a>
 
-                    <div class="dropdown-menu dropdown-menu-right" style="margin-right: 1.5rem;" aria-labelledby="dropdownMenuLink"><a class="dropdown-item" href="#"><em class="fa fa-user-circle mr-1"></em> Ваш профиль</a>
+                    <div class="dropdown-menu dropdown-menu-right" style="margin-right: 1.5rem;" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#"><em class="fa fa-user-circle mr-1"></em> Ваш профиль</a>
                         <a class="dropdown-item" href="#"><em class="fa fa-sliders-h mr-1"></em> Предпочтения</a>
-                        <a class="dropdown-item" href="#"><em class="fa fa-power-off mr-1"></em> На выход</a></div>
+                        <a class="dropdown-item" href="#"><em class="fa fa-power-off mr-1"></em> На выход</a>
+                    </div>
                 </div>
 
                 <div class="clear"></div>
             </header>
+            {% block body %}
+            {% endblock %}
         </main>
-
     </div>
 </div>
 
