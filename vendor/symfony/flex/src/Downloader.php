@@ -20,6 +20,8 @@ use Composer\Downloader\TransportException;
 use Composer\Factory;
 use Composer\IO\IOInterface;
 use Composer\Json\JsonFile;
+use Composer\Plugin\PluginEvents;
+use Composer\Plugin\PreFileDownloadEvent;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>
@@ -37,8 +39,9 @@ class Downloader
     private $endpoint;
     private $caFile;
     private $flexId;
+    private $eventDispatcher;
 
-    public function __construct(Composer $composer, IoInterface $io)
+    public function __construct(Composer $composer, IoInterface $io, ParallelDownloader $rfs)
     {
         if (getenv('SYMFONY_CAFILE')) {
             $this->caFile = getenv('SYMFONY_CAFILE');
@@ -51,7 +54,8 @@ class Downloader
         $this->endpoint = rtrim($endpoint, '/');
         $this->io = $io;
         $config = $composer->getConfig();
-        $this->rfs = Factory::createRemoteFilesystem($io, $config);
+        $this->eventDispatcher = $composer->getEventDispatcher();
+        $this->rfs = $rfs;
         $this->cache = new Cache($io, $config->get('cache-repo-dir').'/'.preg_replace('{[^a-z0-9.]}i', '-', $this->endpoint));
         $this->sess = bin2hex(random_bytes(16));
 
@@ -109,7 +113,7 @@ class Downloader
                 $path .= ','.$date->format('U');
             }
             if (strlen($chunk) + strlen($path) > self::$MAX_LENGTH) {
-                $paths[] = '/p/'.$chunk;
+                $paths[] = ['/p/'.$chunk];
                 $chunk = $path;
             } elseif ($chunk) {
                 $chunk .= ';'.$path;
@@ -118,14 +122,18 @@ class Downloader
             }
         }
         if ($chunk) {
-            $paths[] = '/p/'.$chunk;
+            $paths[] = ['/p/'.$chunk];
         }
 
-        $data = [];
-        foreach ($paths as $path) {
-            if (!$body = $this->get($path, [], false)->getBody()) {
-                continue;
+        $bodies = [];
+        $this->rfs->download($paths, function ($path) use (&$bodies) {
+            if ($body = $this->get($path, [], false)->getBody()) {
+                $bodies[] = $body;
             }
+        });
+
+        $data = [];
+        foreach ($bodies as $body) {
             foreach ($body['manifests'] as $name => $manifest) {
                 $data['manifests'][$name] = $manifest;
             }
@@ -136,6 +144,7 @@ class Downloader
                 $data['locks'][$name] = $lock;
             }
         }
+
         return $data;
     }
 
@@ -174,7 +183,7 @@ class Downloader
             try {
                 $json = $this->rfs->getContents($this->endpoint, $url, false, $options);
 
-                return $this->parseJson($json, $url, $cacheKey);
+                return $this->parseJson($json, $url, $cacheKey, $this->rfs->getLastHeaders());
             } catch (\Exception $e) {
                 if ($e instanceof TransportException && 404 === $e->getStatusCode()) {
                     throw $e;
@@ -208,7 +217,7 @@ class Downloader
                     return new Response('', $this->rfs->getLastHeaders(), 304);
                 }
 
-                return $this->parseJson($json, $url, $cacheKey);
+                return $this->parseJson($json, $url, $cacheKey, $this->rfs->getLastHeaders());
             } catch (\Exception $e) {
                 if ($e instanceof TransportException && 404 === $e->getStatusCode()) {
                     throw $e;
@@ -226,7 +235,7 @@ class Downloader
         }
     }
 
-    private function parseJson(string $json, string $url, string $cacheKey): Response
+    private function parseJson(string $json, string $url, string $cacheKey, array $lastHeaders): Response
     {
         $data = JsonFile::parseJson($json, $url);
         if (!empty($data['warning'])) {
@@ -236,7 +245,7 @@ class Downloader
             $this->io->writeError('<info>Info from '.$url.': '.$data['info'].'</info>');
         }
 
-        $response = new Response($data, $this->rfs->getLastHeaders());
+        $response = new Response($data, $lastHeaders);
         if ($response->getHeader('last-modified')) {
             $this->cache->write($cacheKey, json_encode($response));
         }
