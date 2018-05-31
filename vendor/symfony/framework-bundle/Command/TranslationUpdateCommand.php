@@ -12,6 +12,7 @@
 namespace Symfony\Bundle\FrameworkBundle\Command;
 
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Translation\Catalogue\TargetOperation;
@@ -31,7 +32,7 @@ use Symfony\Component\Translation\Writer\TranslationWriterInterface;
  *
  * @author Michel Salib <michelsalib@hotmail.com>
  *
- * @final since version 3.4
+ * @final
  */
 class TranslationUpdateCommand extends Command
 {
@@ -151,7 +152,7 @@ EOF
                 $currentName = $transPaths[0];
 
                 if (!is_dir($transPaths[0])) {
-                    throw new \InvalidArgumentException(sprintf('<error>"%s" is neither an enabled bundle nor a directory.</error>', $transPaths[0]));
+                    throw new InvalidArgumentException(sprintf('<error>"%s" is neither an enabled bundle nor a directory.</error>', $transPaths[0]));
                 }
             }
         }

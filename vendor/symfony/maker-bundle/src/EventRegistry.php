@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the Symfony MakerBundle package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -96,7 +96,7 @@ class EventRegistry
         }
 
         foreach ($listeners as $listener) {
-            if (!is_array($listener) || 2 !== count($listener)) {
+            if (!\is_array($listener) || 2 !== \count($listener)) {
                 continue;
             }
 

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the Symfony MakerBundle package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -33,6 +33,17 @@ class MakerExtension extends Extension
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
         $loader->load('makers.xml');
+
+        $configuration = $this->getConfiguration($configs, $container);
+        $config = $this->processConfiguration($configuration, $configs);
+
+        $rootNamespace = trim($config['root_namespace'], '\\');
+
+        $makeCommandDefinition = $container->getDefinition('maker.generator');
+        $makeCommandDefinition->replaceArgument(1, $rootNamespace);
+
+        $doctrineHelperDefinition = $container->getDefinition('maker.doctrine_helper');
+        $doctrineHelperDefinition->replaceArgument(0, $rootNamespace.'\\Entity');
 
         $container->registerForAutoconfiguration(MakerInterface::class)
             ->addTag(MakeCommandRegistrationPass::MAKER_TAG);

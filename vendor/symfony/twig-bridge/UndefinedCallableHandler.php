@@ -34,6 +34,7 @@ class UndefinedCallableHandler
         'form_widget' => 'form',
         'form_errors' => 'form',
         'form_label' => 'form',
+        'form_help' => 'form',
         'form_row' => 'form',
         'form_rest' => 'form',
         'form' => 'form',
@@ -62,7 +63,7 @@ class UndefinedCallableHandler
         }
 
         // Twig will append the source context to the message, so that it will end up being like "[...] Unknown filter "%s" in foo.html.twig on line 123."
-        throw new SyntaxError(sprintf('Did you forget to run "composer require symfony/%s"? Unknown filter "%s".', $name, self::$filterComponents[$name]));
+        throw new SyntaxError(sprintf('Did you forget to run "composer require symfony/%s"? Unknown filter "%s".', self::$filterComponents[$name], $name));
     }
 
     public static function onUndefinedFunction($name)
@@ -71,6 +72,6 @@ class UndefinedCallableHandler
             return false;
         }
 
-        throw new SyntaxError(sprintf('Did you forget to run "composer require symfony/%s"? Unknown function "%s".', $name, self::$functionComponents[$name]));
+        throw new SyntaxError(sprintf('Did you forget to run "composer require symfony/%s"? Unknown function "%s".', self::$functionComponents[$name], $name));
     }
 }

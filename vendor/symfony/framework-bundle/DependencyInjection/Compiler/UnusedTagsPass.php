@@ -22,6 +22,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 class UnusedTagsPass implements CompilerPassInterface
 {
     private $whitelist = array(
+        'annotations.cached_reader',
         'cache.pool.clearer',
         'console.command',
         'container.hot_path',
@@ -38,6 +39,10 @@ class UnusedTagsPass implements CompilerPassInterface
         'kernel.event_listener',
         'kernel.event_subscriber',
         'kernel.fragment_renderer',
+        'messenger.bus',
+        'messenger.sender',
+        'messenger.receiver',
+        'messenger.message_handler',
         'monolog.logger',
         'routing.expression_language_provider',
         'routing.loader',

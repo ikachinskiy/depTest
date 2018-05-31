@@ -12,6 +12,7 @@
 namespace Symfony\Bundle\FrameworkBundle\Command;
 
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputArgument;
@@ -33,7 +34,7 @@ use Symfony\Component\Translation\TranslatorInterface;
  *
  * @author Florian Voutzinos <florian@voutzinos.com>
  *
- * @final since version 3.4
+ * @final
  */
 class TranslationDebugCommand extends Command
 {
@@ -151,7 +152,7 @@ EOF
                 $viewsPaths = array($input->getArgument('bundle').'/Resources/views');
 
                 if (!is_dir($transPaths[0])) {
-                    throw new \InvalidArgumentException(sprintf('"%s" is neither an enabled bundle nor a directory.', $transPaths[0]));
+                    throw new InvalidArgumentException(sprintf('"%s" is neither an enabled bundle nor a directory.', $transPaths[0]));
                 }
             }
         } elseif ($input->getOption('all')) {

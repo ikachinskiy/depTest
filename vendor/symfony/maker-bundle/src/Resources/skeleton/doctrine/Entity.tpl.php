@@ -1,20 +1,27 @@
 <?= "<?php\n" ?>
 
-namespace App\Entity;
+namespace <?= $namespace ?>;
 
+<?php if ($api_resource): ?>use ApiPlatform\Core\Annotation\ApiResource;
+<?php endif ?>
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\<?= $repository_class_name ?>")
+<?php if ($api_resource): ?> * @ApiResource()
+<?php endif ?>
+ * @ORM\Entity(repositoryClass="<?= $repository_full_class_name ?>")
  */
-class <?= $entity_class_name."\n" ?>
+class <?= $class_name."\n" ?>
 {
     /**
-     * @ORM\Id
-     * @ORM\GeneratedValue
+     * @ORM\Id()
+     * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      */
     private $id;
 
-    // add your own fields
+    public function getId()
+    {
+        return $this->id;
+    }
 }
